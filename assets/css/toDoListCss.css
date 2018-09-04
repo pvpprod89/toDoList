@@ -1,0 +1,64 @@
+body {
+  /* background: url("../assets/images/tdlBackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: rgb(226, 97, 10);
+  font-size: 20px;
+}
+
+h1 {
+  background: black;
+  margin-top: 0px;
+  padding: 10px;
+  color: white;
+  /* width: 100%; */
+}
+
+p {
+  margin-left: 5px;
+}
+
+#todo-list {
+  margin-top: 10px;
+  padding: 5px;
+  background: black;
+  color: white;
+  text-transform: uppercase;
+}
+
+.bodyPageContent {
+  padding: 10px;
+}
+
+.inputAddItem {
+  width: 215px;
+  height: 25px;
+}
+
+.buttonAddItem {
+  color: white;
+  background: black;
+  height: 30px;
+}
+
+.center {
+  text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+/* @media screen and (min-width: 768px) {
+  body {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  body {
+    font-size: 20px;
+  }
+} */
